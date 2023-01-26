@@ -158,7 +158,7 @@
 .expertise-content {
     width: 800px;
     height: 335px;
-    background-color: rgb(153, 69, 242);
+    background-color: white;
     /*   margin: auto; */
     margin-left: auto;
     margin-right: auto;
@@ -176,7 +176,7 @@
 .expertise-title {
     width: 40%;
     height: 12%;
-    background-color: darkgrey;
+    background-color: white;
     /*     margin: auto; */
     text-align: center;
     padding-top: 10px;
@@ -186,7 +186,7 @@
 .expertise-text {
     width: 60%;
     height: 10%;
-    background-color: rgb(249, 211, 211);
+    background-color: white;
     /* margin: auto; */
     text-align: center;
     padding-top: 10px;
@@ -196,7 +196,7 @@
 .expertise-line {
     width: 60%;
     height: 8%;
-    background-color: rgb(57, 215, 78);
+    background-color:white;
     text-align: center;
     /*  margin-top: 10px; */
     margin-left: auto;
@@ -208,7 +208,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
+    
 }
 
 .card-box div:nth-child(1) {
@@ -244,7 +244,7 @@
 .card {
     width: 33%;
     height: 110px;
-    background-color: beige;
+    background-color: white;
     text-align: center;
 }
 
@@ -252,7 +252,7 @@
 .team-content {
     width: 800px;
     height: 335px;
-    background-color: rgb(213, 246, 194);
+    background-image: url("./img/bgk-middle.png");
     /*   margin: auto; */
     margin-left: auto;
     margin-right: auto;
@@ -262,4 +262,7 @@
     /*   align-items: flex-start; */
     flex-direction: column;
     /*  align-content: center; */
+    
 }
+
+
