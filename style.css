@@ -1,0 +1,265 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.upper-content {
+    width: 800px;
+    height: 335px;
+    background-color: rgb(43, 43, 184);
+    margin: auto;
+}
+
+.header {
+    width: 99%;
+    height: 15%;
+    background-color: darkgrey;
+    margin: auto;
+
+}
+
+.header-logo {
+    width: 25%;
+    height: 100%;
+    background-color: aquamarine;
+    float: left;
+
+}
+
+.nav-menu {
+    width: 60%;
+    height: 100%;
+    background-color: rgb(255, 24, 24);
+    float: right;
+
+}
+
+.middle-article {
+    width: 85%;
+    height: 50%;
+    background-color: rgb(30, 30, 75);
+    margin: 50px auto auto auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box-h1 {
+    width: 100%;
+    height: 20%;
+    background-color: bisque;
+    text-align: center;
+
+}
+
+.box-line {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(57, 215, 78);
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+.box-text {
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(20, 73, 73);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box-button {
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    border-style: none;
+}
+
+.middle-content {
+    width: 800px;
+    height: 335px;
+    background-color: rgb(168, 168, 168);
+    margin: auto;
+
+
+}
+
+.middle-logo {
+    width: 35%;
+    height: 100%;
+    background-color: cornsilk;
+    float: left;
+}
+
+.box-article {
+    width: 55%;
+    height: 100%;
+    background-color: rgb(255, 236, 161);
+    float: right;
+}
+
+.middlebox-header {
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(20, 73, 73);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.middlebox-article {
+    padding-top: 5%;
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(108, 201, 201);
+    text-align: center;
+    /*  margin-top: 10px; */
+}
+
+.middlebox-button {
+    padding-top: 5%;
+    width: 100%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: rgb(92, 159, 218);
+    border-style: none;
+    text-align: center;
+}
+
+.video-content {
+    width: 800px;
+    height: 335px;
+    background-color: rgb(245, 153, 153);
+    margin: auto;
+    padding-top: 4%;
+}
+
+.video-player {
+    width: 75%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(138, 141, 249);
+    text-align: center;
+    padding-top: 10%;
+}
+
+.expertise-content {
+    width: 800px;
+    height: 335px;
+    background-color: rgb(153, 69, 242);
+    /*   margin: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    display: flex;
+    /*  justify-content: center; */
+    /*   align-items: flex-start; */
+    flex-direction: column;
+    /*  align-content: center; */
+
+
+
+}
+
+.expertise-title {
+    width: 40%;
+    height: 12%;
+    background-color: darkgrey;
+    /*     margin: auto; */
+    text-align: center;
+    padding-top: 10px;
+    align-self: center;
+}
+
+.expertise-text {
+    width: 60%;
+    height: 10%;
+    background-color: rgb(249, 211, 211);
+    /* margin: auto; */
+    text-align: center;
+    padding-top: 10px;
+    align-self: center;
+}
+
+.expertise-line {
+    width: 60%;
+    height: 8%;
+    background-color: rgb(57, 215, 78);
+    text-align: center;
+    /*  margin-top: 10px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card-box div:nth-child(1) {
+    border-bottom: solid 1px;
+    border-right: solid 1px;
+}
+
+.card-box div:nth-child(2) {
+    border-bottom: solid 1px;
+    border-right: solid 1px;
+}
+
+.card-box div:nth-child(3) {
+    border-bottom: solid 1px;
+
+}
+
+.card-box div:nth-child(3) {
+    border-bottom: solid 1px;
+
+}
+
+.card-box div:nth-child(4) {
+    border-right: solid 1px;
+
+}
+
+.card-box div:nth-child(5) {
+    border-right: solid 1px;
+
+}
+
+.card {
+    width: 33%;
+    height: 110px;
+    background-color: beige;
+    text-align: center;
+}
+
+
+.team-content {
+    width: 800px;
+    height: 335px;
+    background-color: rgb(213, 246, 194);
+    /*   margin: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    display: flex;
+    /*  justify-content: center; */
+    /*   align-items: flex-start; */
+    flex-direction: column;
+    /*  align-content: center; */
+}
