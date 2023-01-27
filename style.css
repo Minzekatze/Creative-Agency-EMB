@@ -37,6 +37,7 @@
     height: 670px;
     margin: auto;
     opacity: 0.85;
+
 }
 
 .header {
@@ -57,18 +58,17 @@
 }
 
 .header-logo p{
-    font-family: "Roboto-Thin";
     margin-left: 11px;
     width: 73px;
     height: 29px;
     color: #00e0d0;
+    font-family: "Roboto-Thin";
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 50;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
     text-align: center;
-    
 }
 
 .nav-menu {
