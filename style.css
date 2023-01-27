@@ -1,159 +1,294 @@
+@font-face {
+    font-family: "Roboto-Black";
+    src: url(/fonts/Roboto-Black.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url(/fonts/Roboto-Thin.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(/fonts/Roboto-Light.ttf) format("truetype");
+}
+@font-face {
+    font-family: "PlayfairDisplay-Black";
+    src: url(/fonts/PlayfairDisplay-Black.ttf) format("truetype");
+}
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url(/fonts/PlayfairDisplay-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "HammersmithOne";
+    src: url(/fonts/HammersmithOne-Regular.ttf) format("truetype");
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
 }
 
 .upper-content {
-    width: 800px;
-    height: 335px;
-    background-color: rgb(43, 43, 184);
+    background-image: url("/img/bgk-header.png");
+    width: 1600px;
+    height: 670px;
     margin: auto;
+    opacity: 0.85;
 }
 
 .header {
-    width: 99%;
-    height: 15%;
-    background-color: darkgrey;
+    position: relative;
+    top: 15px;
+    width: 940px;
+    height: 50px;
     margin: auto;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-logo {
-    width: 25%;
-    height: 100%;
-    background-color: white;
-    float: left;
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+.header-logo p{
+    font-family: "Roboto-Thin";
+    margin-left: 11px;
+    width: 73px;
+    height: 29px;
+    color: #00e0d0;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    
 }
 
 .nav-menu {
-    width: 60%;
-    height: 100%;
-    background-color: rgb(255, 24, 24);
-    float: right;
+    width: 526px;
+    display:flex;
+    justify-content: space-around;
+}
 
+.nav-content{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Roboto-Black";
+}
+
+.nav-content ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    font-size: 13px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: right;
+    text-transform: uppercase;
+
+}
+.nav-content li:hover{
+    color: #00e0d0;
+    font-style: normal;
+    letter-spacing: 0.33px;
+    line-height: normal;
 }
 
 .middle-article {
-    width: 85%;
-    height: 50%;
-    background-color: rgb(30, 30, 75);
-    margin: 50px auto auto auto;
+    width: 771px;
+    margin: 183px auto 0 auto;
     display: flex;
     flex-direction: column;
-
 }
 
 .box-h1 {
+    display:flex;
+    justify-content: center;
     width: 100%;
-    height: 20%;
-    background-color: bisque;
     text-align: center;
-
+    color: #ffffff;
+    font-family: "PlayfairDisplay-Black";
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
 }
-
+.boxline-contain{
+    display: flex;
+    justify-content: center;
+}
 .box-line {
-    width: 100%;
-    height: 20%;
-    background-color: rgb(57, 215, 78);
-    text-align: center;
-    margin-top: 10px;
-
+    width: 50px;
+    height:1px;
+    background-color: #00e0d0;
+    margin: 21px auto 30px auto;
 
 }
 
 .box-text {
-    color: aliceblue;
+    color: #ffff;
     text-align: center;
     width: 100%;
-    height: 40%;
-    background-color: rgb(20, 73, 73);
     text-align: center;
-    margin-top: 10px;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    letter-spacing: 0.7px;
 }
-
 .box-button {
-
-    margin-left: auto;
-    margin-right: auto;
-    background-color: aliceblue;
-    border-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 
-.middle-content {
-    width: 800px;
-    height: 335px;
-    background-color: rgb(168, 168, 168);
+.box-button button{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #00e0d0;
+    color: #00e0d0;
+    font-family: "HammersmithOne";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+
+    
+}
+
+.middle-container {
+    width: 873px;
+    height: 402px;
     margin: auto;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 
 }
-
 .middle-logo {
-    width: 35%;
-    height: 100%;
-    background-color: cornsilk;
-    float: left;
+    display: flex;
+    margin-right: 100px;
 }
 
 .box-article {
-    width: 55%;
-    height: 100%;
-    background-color: rgb(255, 236, 161);
-    float: right;
+    width: 100%;
+    height: 261px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .middlebox-header {
-    color: aliceblue;
-    text-align: center;
-    width: 100%;
-    height: 10%;
-    background-color: rgb(20, 73, 73);
-    text-align: center;
-    margin-top: 10px;
-}
+    text-align: left;
+    color: #413d4b;
+    font-family: "PlayfairDisplay";
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
 
+}
 .middlebox-article {
-    padding-top: 5%;
-    color: aliceblue;
-    text-align: center;
-    width: 100%;
-    height: 40%;
-    background-color: rgb(108, 201, 201);
-    text-align: center;
-    /*  margin-top: 10px; */
+    margin-top: 18px;
+    text-align: left;
+    opacity: 0.75;
+    color: #413d4b;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: 0.42px;
+
+}
+#p1{
+    margin-bottom: 20px;
 }
 
 .middlebox-button {
-    padding-top: 5%;
     width: 100%;
-    height: 25%;
+    margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
-    background-color: rgb(92, 159, 218);
-    border-style: none;
-    text-align: center;
 }
 
+.middlebox-button button{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #00e0d0;
+    color: #00e0d0;
+    font-family: "HammersmithOne";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+
+
+}
 .video-content {
-    width: 800px;
-    height: 335px;
+    width: 1600px;
+    height: 550px;
+    margin: 0 auto;
+    background-image: url("/img/bgk-middle.png");
     background-color: rgb(245, 153, 153);
-    margin: auto;
-    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.video-player {
-    width: 75%;
-    height: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(138, 141, 249);
-    text-align: center;
-    padding-top: 10%;
+.video-player-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-player p{
+    margin-top: 34px;
+    color: #ffffff;
+    font-family: "Roboto-Black";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
 }
 
 .expertise-content {
