@@ -1,0 +1,36 @@
+@keyframes startingUp {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    } 
+    100%{
+        transform: translateY(0px)
+    }
+}
+.startingUp {
+    animation: startingUp 3s ease-in infinite;
+    /*animation-name: startingUp;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;*/
+}
+@keyframes clickMe {
+    0% {
+         transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+      }
+    100% {
+        transform: scale(1);
+    
+    }
+}
+
+.clickMe{
+    animation: clickMe 2s ease 0s infinite normal none;
+}
