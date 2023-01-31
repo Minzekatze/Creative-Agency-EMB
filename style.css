@@ -96,13 +96,14 @@
     line-height: normal;
     text-align: right;
     text-transform: uppercase;
+    transition: 0.3s;
+    cursor: pointer;
 
 }
 .nav-content li:hover{
     color: #00e0d0;
-    font-style: normal;
-    letter-spacing: 0.33px;
-    line-height: normal;
+    text-shadow: #3333 1px 0 10px;
+    transform: scale(1.1);
 }
 
 .middle-article {
@@ -171,9 +172,20 @@
     text-align: center;
     text-transform: uppercase;
     background-color: transparent;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #00e0d0;
+    transition: ease-out 0.35s;
 
-    
 }
+.box-button button:hover, .middlebox-button button:hover {
+    box-shadow: inset 400px 0 0 0 #00e0d0;
+    color: white;
+}
+.box-button button:active, .middlebox-button button:active{
+    transform: scale(1.1);
+    background-color: #00e0d0;
+}
+
 
 .middle-container {
     width: 873px;
@@ -256,6 +268,9 @@
     text-align: center;
     text-transform: uppercase;
     background-color: transparent;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #00e0d0;
+    transition: ease-out 0.35s;
 
 
 }
@@ -264,7 +279,6 @@
     height: 550px;
     margin: 0 auto;
     background-image: url("/img/bgk-middle.png");
-    background-color: rgb(245, 153, 153);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -276,6 +290,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .video-player p{
@@ -526,7 +541,9 @@ letter-spacing: 0.7px;
 line-height: normal;
 margin: -4px;
 }
-.p-1{
+#p {
+width: 97px;
+height: 9px;
 opacity: 0.7;
 color: #fafafa;
 font-family: "Roboto";
@@ -611,6 +628,4 @@ text-transform: uppercase;
     text-align: center;
     text-transform: uppercase;
     background-color: transparent;
-
-    
 }
