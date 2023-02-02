@@ -131,10 +131,10 @@
     display: flex;
     justify-content: center;
 }
-.box-line {
+#boxline-above {
+    background-color: #00e0d0;
     width: 50px;
     height:1px;
-    background-color: #00e0d0;
     margin: 21px auto 30px auto;
 
 }
