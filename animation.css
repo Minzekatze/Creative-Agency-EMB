@@ -34,3 +34,24 @@
 .clickMe{
     animation: clickMe 2s ease 0s infinite normal none;
 }
+
+@keyframes flyAround {
+    0% {
+        offset-distance: 0%;
+    }
+    20% {
+        offset-distance: 50%;
+    } 
+    40% {
+        offset-distance: 100%;
+    }
+    60%{
+        offset-distance: 50%;
+    }
+    80%{
+        offset-distance: 0%;
+    }
+}
+.flyAround{
+    animation: flyAround 12s linear 2s infinite;
+}
