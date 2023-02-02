@@ -177,11 +177,11 @@
     transition: ease-out 0.35s;
 
 }
-.box-button button:hover, .middlebox-button button:hover {
+.box-button button:hover, .middlebox-button button:hover, .team--button button:hover, #client-area-form button:hover, .footer-subscribe-form button:hover {
     box-shadow: inset 400px 0 0 0 #00e0d0;
     color: white;
 }
-.box-button button:active, .middlebox-button button:active{
+.box-button button:active, .middlebox-button button:active, .team--button button:active, #client-area-form button:active, .footer-subscribe-form button:active{
     transform: scale(1.1);
     background-color: #00e0d0;
 }
@@ -711,6 +711,8 @@ text-transform: uppercase;
     text-transform: uppercase;
     background-color: transparent;
     margin-top: 20px;
+    box-shadow: inset 0 0 0 0 #00e0d0;
+    transition: ease-out 0.35s;
 }
 
 
@@ -848,15 +850,9 @@ textarea:focus {
     align-items: center;
     align-content: center;
     cursor: pointer;
+    box-shadow: inset 0 0 0 0 #00e0d0;
+    transition: ease-out 0.35s;
 }
-
-#client-area-form button:hover {
-
-    color: #ffffff;
-    transition: 0.3s ease-in-out;
-    background: #00e0d0;
-}
-
 
 .logo-container {
 
@@ -927,6 +923,7 @@ textarea:focus {
     line-height: normal;
     margin: 72px 0 47px 0;
     display: inline-block;
+
 
     /* background-color: #00e0d0; */
     /*     border: red dotted 10px; */
@@ -1267,14 +1264,9 @@ border: 1px solid rgba(190, 190, 190, 0.476);
     align-items: center;
     align-content: center;
     cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgba(190, 190, 190, 0.476);
+    transition: ease-out 0.35s;
  /*    margin-left: 0px; */
-}
-
-.footer-subscribe-form button:hover {
-
-    color: #ffffff;
-    transition: 0.3s ease-in-out;
-    background: #00e0d0;
 }
 
 .footer-subscribe-logos img {
