@@ -495,10 +495,12 @@ margin: 0 auto 0 auto;
     
 }
 .team-content {
-    background-image: url("/img/bgk-header.png");
+    background-image: url("/img/bgk-middle.png");
     width: 1600px;
-    height: 700px;
+    height: 712px;
+    background-size: cover;
     margin: auto;}
+
 .Team-title{
     display:flex;
     justify-content: center;
