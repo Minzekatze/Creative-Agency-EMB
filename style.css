@@ -56,7 +56,14 @@
     flex-direction: row;
     align-items: center;
 }
+.nav-logo {
+    width: 44px;
+    height:50px;
+    offset-path: path("M 19 27 A 100 70 0 0 0 20 200 A 100 70 0 0 1 230,200 A 100 70 0 0 1 490,200 A 100 70 0 0 1 710,200 A 100 70 0 0 1 950,200");
+    offset-rotate: 0deg;
+    offset-anchor: center;
 
+}
 .header-logo p{
     margin-left: 11px;
     width: 73px;
