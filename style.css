@@ -547,7 +547,8 @@ width: 50px;
 height: 2px;
 background-color: #ffffff;
 opacity: 0.2;
-margin-top: 18px;
+margin: 18px auto 0 auto;
+
 }
 .team-img{
 display: flex;
