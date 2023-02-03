@@ -195,7 +195,7 @@
 
 
 .middle-container {
-    width: 873px;
+    width: 1600px;
     height: 402px;
     margin: auto;
     display: flex;
@@ -204,8 +204,12 @@
 }
 .middle-content{
     display: flex;
-    width: 100%;
+    position: relative;
+    margin: 70px 332px 70px 395px;
+    width: 873px;
+    height: 262px;
     justify-content: space-between;
+
 
 }
 .middle-logo {
@@ -321,7 +325,8 @@
     margin-right: auto;
     padding-top: 10px;
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+}
     
 .expertise-title {
     color: #413d4b;
@@ -377,8 +382,6 @@
     grid-template: 1fr 1fr / 1fr 1fr 1fr;
     justify-content: center;
     align-content: center;
-   
-   
     
 }
 .cardbox-grid > div{
@@ -391,7 +394,7 @@
 div[class="content"]{
     display: flex;
     width:254px;
-    height: 178px;
+    height: 180px;
     flex-flow: column wrap;
     text-align: center;
 }
@@ -501,9 +504,6 @@ margin: 0 auto 0 auto;
     font-size: normal;
     letter-spacing: 0.7px;
     line-height: normal;
-    
-
-
     
 }
 .team-content {
